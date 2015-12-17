@@ -1,7 +1,7 @@
 language: php
 php:
   - 5.3
-
+sudo: true
 before_script:
   - ./tests/setup/before_script.sh
   - ./tests/setup/apache.sh
